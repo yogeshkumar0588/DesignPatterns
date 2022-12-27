@@ -11,6 +11,14 @@ public class MainClass {
 		SingletonClass singletonObect2 = SingletonClass.getInstance();
 		singletonObect2.simpleMethod();
 		
+		
+		SingletonClassWithSynchronized singletonSyncronizedObectOne = SingletonClassWithSynchronized.getInstance();
+		singletonSyncronizedObectOne.simpleMethod();
+		
+		SingletonClassWithSynchronized singletonSyncronizedObectTwo = SingletonClassWithSynchronized.getInstance();
+		singletonSyncronizedObectTwo.simpleMethod();
+		
+		
 		Teacher teacher = new Teacher();
 		System.out.println(teacher);
 		
